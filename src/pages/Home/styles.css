@@ -134,24 +134,6 @@ header {
   height: 100%;
 }
 
-#buttonAccess {
-  border: none;
-  background-color: #006eff;
-  border-radius: 999px;
-  padding: 20px 60px 20px 60px;
-  color: #fbfbfb;
-  margin-top: 20px;
-  font-size: 2rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#buttonAccess:hover {
-  background-color: #4696ff;
-  transition: 0.3s;
-}
-
 @media only screen and (max-width: 600px) {
   .content {
     flex-direction: column-reverse;

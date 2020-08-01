@@ -142,13 +142,13 @@ header {
     justify-content: space-between;
   }
   .rightContent {
-    height: 50%;
+    height: 40vh;
     width: 100%;
   }
   .leftContent {
     width: 100%;
     padding: 0;
-    height: 50%;
+    height: 50vh;
   }
 
   .footer {
@@ -163,7 +163,7 @@ header {
   }
 
   #backgroundHome {
-    height: 14%;
+    height: 20%;
   }
   #logo {
     width: 80%;
@@ -197,5 +197,6 @@ header {
   }
   .socialNetworks {
     width: 100%;
+    margin: 0;
   }
 }

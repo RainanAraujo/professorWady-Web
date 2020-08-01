@@ -29,9 +29,19 @@ export default function Home() {
         <header>
           {isMobile ? (
             <>
+              {/*}
               <button className="menuMobile">
-                <Menu id="menuMobileIcon" />
-              </button>
+                 <Menu id="menuMobileIcon" />
+              </button>{*/}
+              <div className="socialNetworks">
+                <Button
+                  id="zap"
+                  href={"https://api.whatsapp.com/send?phone=559981657105"}
+                >
+                  CHAMA NO ZAP
+                  <WhatsAppIcon id="whatsAppIcon" />
+                </Button>
+              </div>
             </>
           ) : (
             <>

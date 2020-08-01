@@ -38,15 +38,14 @@ header {
   background-color: #00000000;
 }
 
-.socialNetworks #zap #whatsAppIcon {
+#zap #whatsAppIcon {
   color: #fff;
   font-size: 30px;
   margin-left: 10px;
 }
-
-.socialNetworks #zap {
+#zap {
   margin: 10px;
-  padding: 15px 60px 15px 60px;
+  padding: 5px 60px 5px 60px;
   border-style: none;
   border-radius: 10px;
   background-color: #35e046;
@@ -58,7 +57,7 @@ header {
   justify-content: center;
   display: flex;
 }
-.socialNetworks #zap:hover {
+.zap:hover {
   background-color: #53ef62;
   transition: 0.3s;
 }
@@ -173,5 +172,28 @@ header {
   }
   #lancamento {
     width: 60%;
+  }
+  .socialNetworks #zap #whatsAppIcon {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  .socialNetworks #zap {
+    margin: 10px;
+    padding: 5px 40px 5px 40px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #35e046;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .socialNetworks {
+    width: 100%;
   }
 }

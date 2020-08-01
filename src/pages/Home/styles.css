@@ -142,12 +142,13 @@ header {
     justify-content: space-between;
   }
   .rightContent {
+    height: 50%;
     width: 100%;
   }
   .leftContent {
     width: 100%;
     padding: 0;
-    height: 70%;
+    height: 50%;
   }
 
   .footer {

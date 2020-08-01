@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
+import { Button } from "@material-ui/core";
 import Menu from "@material-ui/icons/MenuRounded";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import logoWady from "../../assets/images/logoWady.svg";
@@ -9,6 +10,10 @@ import facebookIcon from "../../assets/images/facebookIcon.svg";
 import instagramIcon from "../../assets/images/instagramIcon.svg";
 import backgroundHome from "../../assets/images/backgroundHome.svg";
 export default function Home() {
+  function LinkInstagram() {
+    window.open("http://google.com", "_blank");
+  }
+
   const [isMobile, setMobile] = useState();
   useEffect(() => {
     if (window.screen.width < 600) {
@@ -20,7 +25,7 @@ export default function Home() {
   return (
     <div id="root">
       <div className="main">
-        <img src={backgroundHome} id="backgroundHome" />
+        <div id="backgroundHome" />
         <header>
           {isMobile ? (
             <>
@@ -32,16 +37,25 @@ export default function Home() {
             <>
               <div></div>
               <div className="socialNetworks">
-                <button id="iconButton">
+                <Button
+                  id="iconButton"
+                  href={"https://www.facebook.com/professorwady"}
+                >
                   <img src={facebookIcon} />
-                </button>
-                <button id="iconButton">
+                </Button>
+                <Button
+                  id="iconButton"
+                  href={"https://www.instagram.com/professorwady/"}
+                >
                   <img src={instagramIcon} />
-                </button>
-                <button id="zap">
+                </Button>
+                <Button
+                  id="zap"
+                  href={"https://api.whatsapp.com/send?phone=559981657105"}
+                >
                   CHAMA NO ZAP
                   <WhatsAppIcon id="whatsAppIcon" />
-                </button>
+                </Button>
               </div>
             </>
           )}

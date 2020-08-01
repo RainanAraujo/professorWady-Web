@@ -20,7 +20,7 @@ header {
 }
 
 #lancamento {
-  width: 40%;
+  width: 60%;
 }
 .socialNetworks {
   display: flex;
@@ -66,9 +66,10 @@ header {
 #backgroundHome {
   position: absolute;
   z-index: -1;
-  right: 0;
+  background-color: #35e046;
   bottom: 0;
   width: 100%;
+  height: 40%;
 }
 #logo {
   width: 80%;
@@ -161,11 +162,7 @@ header {
   }
 
   #backgroundHome {
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    top: 0;
-    width: 100%;
+    height: 18%;
   }
   #logo {
     width: 80%;

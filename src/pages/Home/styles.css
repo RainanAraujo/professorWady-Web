@@ -147,6 +147,7 @@ header {
   .leftContent {
     width: 100%;
     padding: 0;
+    height: 70%;
   }
 
   .footer {
@@ -161,7 +162,7 @@ header {
   }
 
   #backgroundHome {
-    height: 18%;
+    height: 14%;
   }
   #logo {
     width: 80%;

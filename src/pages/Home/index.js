@@ -10,10 +10,6 @@ import facebookIcon from "../../assets/images/facebookIcon.svg";
 import instagramIcon from "../../assets/images/instagramIcon.svg";
 import backgroundHome from "../../assets/images/backgroundHome.svg";
 export default function Home() {
-  function LinkInstagram() {
-    window.open("http://google.com", "_blank");
-  }
-
   const [isMobile, setMobile] = useState();
   useEffect(() => {
     if (window.screen.width < 600) {
@@ -73,6 +69,7 @@ export default function Home() {
         <div className="content">
           <div className="leftContent">
             <img src={logoWady} id="logo" />
+
             <img src={lancamento} id="lancamento" />
             {/*}<button id="buttonAccess" onclick="window.location.href='#'">
               Faça sua campanha

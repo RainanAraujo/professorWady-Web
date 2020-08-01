@@ -7,6 +7,21 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.menuMobile {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  background-color: #00000000;
+}
+.menuMobile #menuMobileIcon {
+  color: #313131;
+  font-size: 50px;
+}
+
+#lancamento {
+  width: 40%;
+}
 .socialNetworks {
   display: flex;
   align-items: center;
@@ -64,28 +79,12 @@ header {
 }
 .leftContent {
   width: 50%;
+  height: 100%;
   padding-left: 100px;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
-}
-
-.leftContent h1 {
-  font-size: 8rem;
-  color: #1f2233;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.leftContent h3 {
-  margin-top: 20px;
-  width: 60%;
-  font-size: 2.4rem;
-  color: #6c6767;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 35px;
 }
 
 .rightContent {
@@ -140,7 +139,6 @@ header {
   }
   .main {
     padding: 0 10px 0 10px;
-
     justify-content: space-between;
   }
   .rightContent {
@@ -148,23 +146,9 @@ header {
   }
   .leftContent {
     width: 100%;
-  }
-  .leftContent h1 {
-    font-size: 5rem;
-    text-align: center;
-    width: 100%;
+    padding: 0;
   }
 
-  .leftContent h3 {
-    font-size: 2rem;
-    width: 100%;
-    line-height: 3rem;
-    align-self: center;
-    text-align: center;
-  }
-  #buttonAccess {
-    align-self: center;
-  }
   .footer {
     margin-top: 10%;
     position: relative;
@@ -174,5 +158,23 @@ header {
   }
   .footer h1 {
     font-size: 1.4rem;
+  }
+
+  #backgroundHome {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+  #logo {
+    width: 80%;
+  }
+
+  #fotoWady {
+    width: 90%;
+  }
+  #lancamento {
+    width: 60%;
   }
 }

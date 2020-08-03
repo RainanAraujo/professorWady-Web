@@ -33,7 +33,7 @@ export default function Home() {
               </Link>
             </Button>
           </div>
-          <div className="socialNetworks">
+          <div className="socialNetworks" style={{ marginTop: 20 }}>
             <div>
               <Button
                 id="iconButton"
@@ -50,6 +50,7 @@ export default function Home() {
             </div>
 
             <Button
+              style={{ marginTop: 30 }}
               id="zap"
               href={"https://api.whatsapp.com/send?phone=559981657105"}
             >

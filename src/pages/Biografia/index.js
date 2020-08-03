@@ -21,7 +21,9 @@ export default function Biografia() {
           </section>
         </div>
       </div>
-      <footer></footer>
+      <footer>
+        <h1>©Copyright 2020 - Todos os direitos reservados</h1>
+      </footer>
     </div>
   );
 }

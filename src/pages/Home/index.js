@@ -125,7 +125,9 @@ export default function Home() {
             </div>
   </section>{*/}
         </div>
-        <footer></footer>
+        <footer>
+          <h1>©Copyright 2020 - Todos os direitos reservados</h1>
+        </footer>
       </div>
     </div>
   );

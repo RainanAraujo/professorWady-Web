@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
-import { Button } from "@material-ui/core";
+import { Button, Link } from "@material-ui/core";
 import biografia from "../../assets/images/biografia.svg";
 import fotoWady from "../../assets/images/fotoWady.svg";
 import planoGestao from "../../assets/images/planoGestao.svg";
@@ -71,7 +71,9 @@ export default function Home() {
                     Federal de Codó- MA passa a ser chamada IFMA- Campus Codó.
                   </h3>
                 </div>
-                <Button id="knowMoreButton">Saiba Mais</Button>
+                <Button id="knowMoreButton">
+                  <Link to="/biografia">Saiba Mais</Link>
+                </Button>
               </div>
             </div>
           </section>
@@ -88,7 +90,9 @@ export default function Home() {
                     estará aberto para contribuições, reflexões e mudanças.
                   </h3>
                 </div>
-                <Button id="knowMoreButton">Confira</Button>
+                <Button id="knowMoreButton">
+                  <Link to="/propostas">Confira</Link>
+                </Button>
               </div>
               <div className="rightContent">
                 <img src={planoGestao} id="fotoWady" />

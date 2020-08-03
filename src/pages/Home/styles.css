@@ -72,6 +72,7 @@ footer {
   text-align: justify;
 }
 .content {
+  margin-top: 80px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -82,7 +83,7 @@ footer {
   flex-direction: column;
 }
 .main {
-  width: 98.4vw;
+  width: 100vw;
   height: auto;
   align-items: center;
   flex-direction: column;
@@ -127,6 +128,7 @@ footer {
 }
 .mainHeaderDesktop {
   max-width: 1250px;
+  height: 100%;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -282,6 +284,7 @@ footer {
     margin-bottom: 20px;
   }
   .content {
+    margin-top: 60px;
     flex-direction: column;
   }
   .main {
@@ -289,7 +292,6 @@ footer {
     padding: 0 10px 0 10px;
     justify-content: space-between;
     height: auto;
-    margin-bottom: 50px;
   }
   .rightContent {
     margin-top: 20px;
@@ -340,6 +342,9 @@ footer {
   }
   .contentSection {
     flex-direction: column-reverse;
+  }
+  #noBorderSection {
+    padding: 20px 0 0;
   }
   #noBorderSection .contentSection {
     flex-direction: row;

@@ -1,0 +1,74 @@
+.contentSectionPageTitle {
+  max-width: 1250px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: center;
+}
+.contentSectionPageTitle h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 4rem;
+}
+.sectionPageTitle {
+  background-color: #178a04;
+}
+.titleSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.titleSection h1 {
+  font-size: 5rem;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.titleSection img {
+  width: 20%;
+}
+.contentSectionSubPage {
+  max-width: 1250px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contentSectionSubPage h3 {
+  margin-top: 70px;
+  font-size: 2.6rem;
+  font-weight: 300;
+  color: #6f6161;
+  width: 80%;
+  line-height: 35px;
+  text-align: justify;
+}
+@media only screen and (max-width: 900px) {
+  .titleSection {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .titleSection h1 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .titleSection img {
+    width: 50%;
+  }
+  .contentSectionPageTitle h1 {
+    font-size: 3rem;
+  }
+  .contentSectionSubPage h3 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+  }
+}

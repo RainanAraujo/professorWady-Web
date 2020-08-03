@@ -35,14 +35,17 @@ footer h1 {
   border-style: none;
   border-radius: 10px;
   background-color: #178a04;
-  color: #fff;
-  font-size: 24px;
+
   cursor: pointer;
   transition: 0.3s;
   align-items: center;
   width: 300px;
   justify-content: center;
   display: flex;
+}
+#knowMoreButton a {
+  color: #fff;
+  font-size: 24px;
 }
 
 #knowMoreButton:hover {

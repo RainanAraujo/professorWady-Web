@@ -1,0 +1,45 @@
+.menuMobile button {
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  background-color: #00000000;
+}
+.menuMobile {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menuMobile #menuMobileIcon {
+  color: #313131;
+  font-size: 50px;
+}
+
+.menuClose.menuShow {
+  transition: 0.3s;
+  transform: translateX(0px);
+}
+.menuClose {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  background-color: #f8fcfd;
+  transition: 0.3s;
+  transform: translateX(-100vw);
+}
+
+.closeMenu #menuCloseIcon {
+  height: 40px;
+  font-size: 30px;
+  color: #ff0000;
+}
+.closeMenu {
+  width: 100%;
+  height: 50px;
+}
+.is-nav-open {
+  margin: 0;
+}

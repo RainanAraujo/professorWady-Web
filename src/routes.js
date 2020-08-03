@@ -5,7 +5,7 @@ import Propostas from "./pages/Propostas";
 export default function MainRoutes() {
   return (
     <Switch>
-      <Route path="/propostas" component={Home} />
+      <Route path="/propostas" component={Propostas} />
       <Route path="/" component={Home} />
     </Switch>
   );

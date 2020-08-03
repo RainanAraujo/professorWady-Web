@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,300&display=swap");
 
 * {
   margin: 0;
@@ -17,7 +17,9 @@ html {
 html,
 body,
 #root {
-  height: 100vh;
+}
+div {
+  display: block;
 }
 
 body {
@@ -30,4 +32,8 @@ input,
 button,
 text {
   font-family: Roboto;
+}
+
+h1 {
+  color: #26353e;
 }

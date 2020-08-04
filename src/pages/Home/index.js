@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
-import { Button, Link } from "@material-ui/core";
+import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import biografia from "../../assets/images/biografia.svg";
 import fotoWady from "../../assets/images/fotoWady.svg";
 import planoGestao from "../../assets/images/planoGestao.svg";
